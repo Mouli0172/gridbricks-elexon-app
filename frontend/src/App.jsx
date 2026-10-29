@@ -25,6 +25,7 @@ export default function App() {
     setError(null);
 
     const endpoints = [
+      'https://gridbricks-elexon-app.onrender.com/api/wind-analysis',
       'http://localhost:8080/api/wind-analysis',
       'http://localhost:8000/api/wind-analysis',
     ];
